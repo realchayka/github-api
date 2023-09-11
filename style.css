@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    background: #202223;
+}
+#searchInput {
+    background: rgb(168, 214, 100);
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 0;
+    padding-left: 20px;
+    font-size: 18px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    
+}
+#searchInput:focus {
+    border: none;
+    outline: none;
+}
+
+.searchWrapper {
+    width: 450px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(168, 214, 100);
+    box-shadow: 0px 1px 50px 10px rgba(212, 34, 34, 0.12);
+}
+
+#searchBox {
+    max-width: 450px;
+}
+
+#searchBox li {
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+}
+
+#searchBox li:hover {
+    background: rgb(112, 151, 55);
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search-input{
+    padding: 5px;
+}
+ul {
+    list-style: none;
+}
+
+.favorite {
+    position: relative;
+    margin-top: 10px;
+    width: 450px;
+    border-radius: 10px;
+    background: rgb(168, 214, 100);
+    padding: 10px;
+}
+
+.delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+    padding: 10px 20px;
+}
+
+.delete:hover {
+    color: white;
+    background: red;
+    cursor: pointer;
+}
